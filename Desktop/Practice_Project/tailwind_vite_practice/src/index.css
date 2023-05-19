@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #020617;
+  color: white;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold p-4 font-alkatra capitalize duration-200 transition text-secondary tracking-wider;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold capitalize font-alkatra p-4 duration-200 transition;
+  }
+  h3 {
+    @apply text-2xl font-medium font-alkatra p-4 capitalize duration-200 transition;
+  }
+  h4 {
+    @apply text-4xl font-bold inline border-b-2 border-gray-500  font-alkatra text-center p-2;
+  }
+  p {
+    @apply font-dancing tracking-wider text-2xl p-4 font-medium indent-4 hover:indent-8 duration-300 transition;
+  }
+
+  /* this is for ul li animation */
+
+  ul {
+    @apply p-0 md:flex hidden;
+  }
+  ul li {
+    @apply decoration-0 p-4 text-white font-alkatra;
+  }
+  ul li a {
+    @apply font-bold  uppercase relative px-4 py-1;
+  }
+  a:hover {
+    @apply text-amber-400;
+  }
+  span:first-child::before {
+    @apply content-[''] absolute top-0 left-0 w-4 h-4 bg-transparent border-t-2 border-yellow-400 border-l-2 transition-all duration-200 opacity-0;
+  }
+
+  span:first-child::after {
+    @apply content-[''] absolute top-0 right-0 w-4 h-4 bg-transparent border-t-2 border-yellow-400 border-r-2 transition-all duration-200 opacity-0;
+  }
+
+  span:last-child::before {
+    @apply content-[''] absolute bottom-0 left-0 w-4 h-4 bg-transparent border-b-2 border-yellow-400 border-l-2 transition-all duration-200 opacity-0;
+  }
+
+  span:last-child::after {
+    @apply content-[''] absolute bottom-0 right-0 w-4 h-4 bg-transparent border-b-2 border-yellow-400 border-r-2 transition-all duration-200 opacity-0;
+  }
+
+  a:hover span:first-child::before {
+    @apply -top-4 -left-4 opacity-100;
+  }
+
+  a:hover span:first-child::after {
+    @apply -top-4 -right-4 opacity-100;
+  }
+
+  a:hover span:last-child::before {
+    @apply -bottom-4 -left-4 opacity-100;
+  }
+
+  a:hover span:last-child::after {
+    @apply -bottom-4 -right-4 opacity-100;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1024px] py-[10px] items-center  mx-auto flex justify-between p-4 gap-2;
+  }
+}
+
+/* this is for animated button class */
+@layer components {
+  .animated-btn {
+    @apply font-bold border-2 px-5 py-2 relative transition-all duration-300 overflow-hidden z-10 w-full h-full rounded-lg;
+  }
+  .animated-btn::before,
+  .animated-btn::after {
+    @apply absolute content-[''] w-full h-full top-0 skew-x-12 -z-10;
+  }
+  .animated-btn::before {
+    @apply bg-secondary left-[110%] transition-all duration-300;
+  }
+  .animated-btn::after {
+    @apply bg-amber-400 right-[110%] transition-all duration-300;
+  }
+  .animated-btn:hover::before {
+    @apply left-1/2;
+  }
+  .animated-btn:hover::after {
+    @apply right-1/2;
+  }
+}
