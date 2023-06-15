@@ -1,0 +1,3 @@
+2023-04-23 00:05:21.293 [O] Created AdlSdk Logger level [error], API version [5.0.1.40]
+2023-04-23 00:05:21.293 [E] Invalid log level was specified by environment variable ADLSDK_LOG_LEVEL[]; fall back to the default [error].
+2023-04-23 00:20:26.190 [E] CAdlsAdapter::SetIdleMode() called when license ID was empty

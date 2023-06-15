@@ -1,0 +1,17 @@
+﻿[2021-06-27:11:51:34] Runtime Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2021-06-27:11:51:34] Commandline is: 
+[2021-06-27:11:51:34] No installed runtime detected
+[2021-06-27:11:51:34] Found sidecar config file at c:\users\deepak\appdata\local\temp\wzse0.tmp\.airinstall.cfg
+[2021-06-27:11:51:34] Read ./resources/PhotonTv.air from sidecar file.
+[2021-06-27:11:51:34] Using c:\users\deepak\appdata\local\temp\wzse0.tmp\resources\PhotonTv.air as input file
+[2021-06-27:11:51:34] Invoking Application Installer for combined install
+[2021-06-27:11:51:34] Launching subprocess with commandline C:\Users\Deepak\AppData\Local\Temp\WZSE0.TMP\Adobe AIR\Versions\1.0\Adobe AIR Application Installer -runtime C:\Users\Deepak\AppData\Local\Temp\WZSE0.TMP -withRuntime -url file:///c:/users/deepak/appdata/local/temp/wzse0.tmp/resources/PhotonTv.air
+[2021-06-27:11:51:34] Application Installer begin with version 2.5.1.17730 on Windows 7 x86
+[2021-06-27:11:51:34] Commandline is: -runtime C:\Users\Deepak\AppData\Local\Temp\WZSE0.TMP -withRuntime -url file:///c:/users/deepak/appdata/local/temp/wzse0.tmp/resources/PhotonTv.air
+[2021-06-27:11:51:34] No installed runtime detected
+[2021-06-27:11:51:34] Unpackaging file:///c:/users/deepak/appdata/local/temp/wzse0.tmp/resources/PhotonTv.air to C:\Users\Deepak\AppData\Local\Temp\fla919A.tmp
+[2021-06-27:11:51:35] Package signature validation failed
+[2021-06-27:11:51:35] Got an unexpected fatal error while unpackaging: [ErrorEvent type="error" bubbles=false cancelable=false eventPhase=2 text="invalid package signature" errorID=5022]
+[2021-06-27:11:51:39] Application Installer end with exit code 7
+[2021-06-27:11:51:39] Subprocess app installer failed (7)
+[2021-06-27:11:51:39] Runtime Installer end with exit code 7

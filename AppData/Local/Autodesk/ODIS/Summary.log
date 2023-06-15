@@ -1,0 +1,294 @@
+******************** Install Summary ******************** 
+
+Bundle: Autodesk Maya 2020
+
+Autodesk® Genuine Service (Essential - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Fri Apr  7 17:15:33 2023
+		End time   : Fri Apr  7 17:15:51 2023
+		Total time : 18sec
+
+Autodesk Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Fri Apr  7 17:05:11 2023
+		End time   : Fri Apr  7 17:15:30 2023
+		Total time : 10min19sec
+
+Arnold for Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Fri Apr  7 17:15:57 2023
+		End time   : Fri Apr  7 17:16:14 2023
+		Total time : 17sec
+
+Autodesk Desktop app (Essential - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Fri Apr  7 17:15:33 2023
+		End time   : Fri Apr  7 17:15:35 2023
+		Total time : 2sec
+
+Autodesk Single Sign On Component PRD (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Fri Apr  7 17:04:58 2023
+		End time   : Fri Apr  7 17:05:10 2023
+		Total time : 12sec
+
+Microsoft Visual C++ 2008 SP1 Redistributable (x64) (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Fri Apr  7 17:04:52 2023
+		End time   : Fri Apr  7 17:04:58 2023
+		Total time : 6sec
+
+**************************** End *************************** 
+
+
+******************** Uninstall Summary ******************** 
+
+Bundle: Autodesk Maya 2020
+
+Autodesk Maya 2020 (Core - Package)
+Install State: UNINSTALLED
+	uninstall summary
+		Start time : Sun Apr  9 16:47:59 2023
+		End time   : Sun Apr  9 16:50:12 2023
+		Total time : 2min13sec
+
+Microsoft Visual C++ 2017 Redistributable (x86) (Core - Package)
+Install State: PRE_INSTALLED
+	uninstall summary
+		Start time : Sun Apr  9 16:50:14 2023
+		End time   : Thu Jan  1 05:30:00 1970
+		Total time : 0sec
+
+Microsoft Visual C++ 2012 Redistributable (x86) Update 4 (Core - Package)
+Install State: PRE_INSTALLED
+	uninstall summary
+		Start time : Sun Apr  9 16:50:14 2023
+		End time   : Thu Jan  1 05:30:00 1970
+		Total time : 0sec
+
+Microsoft Visual C++ 2017 Redistributable (x86) (Core - Package)
+Install State: PRE_INSTALLED
+	uninstall summary
+		Start time : Sun Apr  9 16:50:14 2023
+		End time   : Thu Jan  1 05:30:00 1970
+		Total time : 0sec
+
+**************************** End *************************** 
+
+
+******************** Uninstall Summary ******************** 
+
+Bundle: Autodesk Maya 2024
+
+LookdevX (Optional - Package)
+Install State: UNINSTALLED
+	uninstall summary
+		Start time : Sun Apr  9 16:52:27 2023
+		End time   : Sun Apr  9 16:52:28 2023
+		Total time : 1sec
+
+Autodesk Maya 2024 (Core - Package)
+Install State: UNINSTALLED
+	uninstall summary
+		Start time : Sun Apr  9 16:52:28 2023
+		End time   : Sun Apr  9 16:54:42 2023
+		Total time : 2min14sec
+
+Microsoft Visual C++ 2015-2022 Redistributable (x64) (Core - Package)
+Install State: PRE_INSTALLED
+	uninstall summary
+		Start time : Sun Apr  9 16:54:42 2023
+		End time   : Thu Jan  1 05:30:00 1970
+		Total time : 0sec
+
+**************************** End *************************** 
+
+
+******************** Install Summary ******************** 
+
+Bundle: Autodesk Maya 2020
+
+Bifröst 2.0.3.0 for Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr  9 17:05:24 2023
+		End time   : Sun Apr  9 17:05:40 2023
+		Total time : 16sec
+
+Autodesk Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr  9 17:02:37 2023
+		End time   : Sun Apr  9 17:05:21 2023
+		Total time : 2min44sec
+
+Substance in Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr  9 17:05:49 2023
+		End time   : Sun Apr  9 17:05:51 2023
+		Total time : 2sec
+
+Arnold for Maya 2020 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr  9 17:05:40 2023
+		End time   : Sun Apr  9 17:05:49 2023
+		Total time : 9sec
+
+Autodesk Desktop app (Essential - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr  9 17:05:22 2023
+		End time   : Sun Apr  9 17:05:22 2023
+		Total time : 0sec
+
+Autodesk Licensing (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr  9 17:01:58 2023
+		End time   : Sun Apr  9 17:02:37 2023
+		Total time : 39sec
+
+**************************** End *************************** 
+
+
+******************** Uninstall Summary ******************** 
+
+Bundle: Autodesk Maya 2020
+
+Autodesk Maya 2020 (Core - Package)
+Install State: UNINSTALLED
+	uninstall summary
+		Start time : Sun Apr 16 19:30:01 2023
+		End time   : Sun Apr 16 19:36:40 2023
+		Total time : 6min39sec
+
+Microsoft Visual C++ 2017 Redistributable (x86) (Core - Package)
+Install State: PRE_INSTALLED
+	uninstall summary
+		Start time : Sun Apr 16 19:36:43 2023
+		End time   : Thu Jan  1 05:30:00 1970
+		Total time : 0sec
+
+Microsoft Visual C++ 2012 Redistributable (x86) Update 4 (Core - Package)
+Install State: PRE_INSTALLED
+	uninstall summary
+		Start time : Sun Apr 16 19:36:42 2023
+		End time   : Thu Jan  1 05:30:00 1970
+		Total time : 0sec
+
+Microsoft Visual C++ 2017 Redistributable (x86) (Core - Package)
+Install State: PRE_INSTALLED
+	uninstall summary
+		Start time : Sun Apr 16 19:36:43 2023
+		End time   : Thu Jan  1 05:30:00 1970
+		Total time : 0sec
+
+**************************** End *************************** 
+
+
+******************** Install Summary ******************** 
+
+Bundle: Autodesk Maya 2022
+
+PyMEL for Python 3 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 19:53:52 2023
+		End time   : Sun Apr 16 19:54:37 2023
+		Total time : 45sec
+
+Bifröst 2.2.1.0 for Maya 2022 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 19:55:12 2023
+		End time   : Sun Apr 16 20:17:27 2023
+		Total time : 22min15sec
+
+Rokoko Motion Library in Maya 2022 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 19:55:06 2023
+		End time   : Sun Apr 16 19:55:12 2023
+		Total time : 6sec
+
+Autodesk Maya 2022 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 19:39:31 2023
+		End time   : Sun Apr 16 19:53:49 2023
+		Total time : 14min18sec
+
+MayaUSD 0.8.0 for Maya 2022 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 19:54:37 2023
+		End time   : Sun Apr 16 19:55:06 2023
+		Total time : 29sec
+
+Autodesk Licensing Installer 1.0 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 19:37:58 2023
+		End time   : Sun Apr 16 19:39:30 2023
+		Total time : 1min32sec
+
+**************************** End *************************** 
+
+
+******************** Install Summary ******************** 
+
+Bundle: Autodesk Maya 2022
+
+PyMEL for Python 3 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 20:40:31 2023
+		End time   : Sun Apr 16 20:40:51 2023
+		Total time : 20sec
+
+Autodesk Maya 2022 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 20:32:35 2023
+		End time   : Sun Apr 16 20:40:30 2023
+		Total time : 7min55sec
+
+Autodesk Licensing Installer 1.0 (Core - Package)
+Install State: INSTALLED
+	install summary
+		Start time : Sun Apr 16 20:31:33 2023
+		End time   : Sun Apr 16 20:32:35 2023
+		Total time : 1min2sec
+
+**************************** End *************************** 
+
+
+******************** Uninstall Summary ******************** 
+
+Bundle: Autodesk Maya 2022
+
+PyMEL for Python 3 (Core - Package)
+Install State: UNINSTALLED
+	uninstall summary
+		Start time : Sat May  6 13:08:49 2023
+		End time   : Sat May  6 13:08:56 2023
+		Total time : 7sec
+
+Autodesk Maya 2022 (Core - Package)
+Install State: UNINSTALLED
+	uninstall summary
+		Start time : Sat May  6 13:08:50 2023
+		End time   : Sat May  6 13:11:53 2023
+		Total time : 3min3sec
+
+**************************** End *************************** 
+
+

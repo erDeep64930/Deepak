@@ -1,0 +1,9 @@
+2023-04-05T19:48:14.681 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] ======================== Start InstallLogHelper ========================
+2023-04-05T19:48:14.682 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] Version : 1.39.0.4
+2023-04-05T19:48:14.682 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] OS-Name : Windows
+2023-04-05T19:48:14.682 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] OS-Version : 10.0
+2023-04-05T19:48:14.682 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] OS-Locale : en-IN
+2023-04-05T19:48:14.682 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] Running-Mode : root
+2023-04-05T19:48:14.687 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] Build-Mode : Release
+2023-04-05T19:48:14.687 [InstallLogHelper: 6716, single] [InstallLogHelper INFO] ==================================================================
+2023-04-05T19:48:14.816 [InstallLogHelper: 6716, single] [InstallLogHelper WARN] [ Autodesk::DDAUtils::SignatureUtils::IsSignedBySubjectName ]   CertQuery::File Name:[ C:\PROGRA~1\Autodesk\AdODIS\V1\Setup\install_db_manager.dll ] Subject:[ Autodesk, Inc ] Success 

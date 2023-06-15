@@ -1,0 +1,201 @@
+2023-04-05T19:45:52.137 [Log Analyzer: 15144, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-05T19:45:52.138 [Log Analyzer: 15144, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-05T19:45:52.138 [Log Analyzer: 15144, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-05T19:45:52.138 [Log Analyzer: 15144, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-05T19:45:52.138 [Log Analyzer: 15144, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-05T19:45:52.138 [Log Analyzer: 15144, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-05T19:45:52.138 [Log Analyzer: 15144, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-05T19:45:52.138 [Log Analyzer: 15144, single] [LogAnalyzer INFO] ==================================================================
+2023-04-05T19:45:52.139 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-05T19:45:52.139 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-05T19:45:52.140 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-05T19:45:52.141 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-05T19:58:31.770 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"ANALYZE_LOG_FILE","request":{"Package":{"Configuration":{"AdditionalPackageInfo":{"uninstallCommand":"c:/solidangle/mtoadeploy/2024/Uninstall.exe /S /FORCE_UNINSTALL=1"},"Attributes":{"allowRollback":"true","diskCost":"170000","ignoreFailure":"true","majorUpgrade":"true","permanent":"true","suppressARP":"false"},"Conditions":[{"#value":"( (%M_TO_A_2024% CONTAINS 5.3.0) )","messageId":"xx","state":"INSTALLED"}],"InstallFile":{"contents":"File","file":"3rdParty/MtoA/MtoA.exe","installParams":"/S /FORCE_UNINSTALL=1 /norestart","type":"EXE","uninstallParams":"/S /FORCE_UNINSTALL=1"},"Languages":[{"langId":"en-US"}],"LaunchShortcut":null,"Platforms":[{"architecture":"x64","minVersion":"7","name":"Windows"}],"Properties":[{"RegistrySearch":{"id":"M_TO_A_2024","key":"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MtoA2024","name":"DisplayVersion","root":"HKCU"},"property":"M_TO_A_2024"}]},"Dependencies":null,"Identity":{"BuildNumber":{"#value":"5.3.0"},"ConstantId":"{9C8FFBE5-EEBD-4720-B5B6-E73D5AE4EA68}","DisplayName":"Arnold renderer","PLC":"MAYA","Publisher":{"#value":"Autodesk, Inc.","thirdParty":"true"},"Release":"2024","Signature":"yA9civspU8f457D6/aFZrGweiEzacV51AGk8x+PJB40=","Type":"APP","UPI2":"{4915D91A-C397-341A-9DE7-42942F1D3221}","UpgradeCode":"{B8AD379E-69DD-3E6D-91AC-BE0AEF0A61A8}"},"Resources":null,"external":"false","installAs":"core","name":"MtoA","packagePath":"C:\\Users\\Deepak\\AppData\\Local\\Temp\\Temp3_Setup_64bit.zip\\3rdParty\\MtoA\\MtoA.exe","path":"3rdParty/MtoA/pkg.mtoa.xml","version":"1.0","xmlns":"https://emsfs.autodesk.com/schema/manifest/1/0","xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","xsi:schemaLocation":""}},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-05T19:58:31.773 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   Autodesk::LogAnalyzerHandler::AnalyzeLogFile 
+2023-04-05T19:58:31.773 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::GetLogFilePath ]   Autodesk::LogAnalyzerHandler::GetLogFilePath 
+2023-04-05T19:58:31.775 [Log Analyzer: 15144, single] [LogAnalyzer WARN] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   log file does not exist: C:\Users\Deepak\AppData\Local\Temp\MtoA_2024_install.log 
+2023-04-05T19:59:17.969 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"ANALYZE_LOG_FILE","request":{"Package":{"Configuration":{"AdditionalPackageInfo":null,"Attributes":{"allowRollback":"true","diskCost":"22462464","ignoreFailure":"true","majorUpgrade":"true","permanent":"true"},"InstallFile":{"contents":"File","file":"x64/Substance/AdobeSubstance3DforMaya-2.3.2-2024-msvc14-x86_64.exe","installParams":"/VERYSILENT /SUPPRESSMSGBOXES /NORESTART","type":"EXE"},"Languages":[{"langId":"en-US"}],"LaunchShortcut":null,"Platforms":[{"architecture":"x64","minVersion":"7","name":"Windows"}]},"Dependencies":null,"Identity":{"BuildNumber":{"#value":"2.3.2"},"ConstantId":"{6984DC4D-151A-4FCF-9932-6734395133DB}","DisplayName":"Substance","PLC":"MAYA","Publisher":{"#value":"Allegorithmic, Inc.","thirdParty":"true"},"Release":"2024","Signature":"a3tYWdaxfg4IFSc2giNHNE0D0I5xC11bskXZEfp6Bks=","Type":"APP","UPI2":"{28628C5A-D73C-3CA9-A840-9D85415FF619}","UpgradeCode":"{64A5A913-D165-314A-9791-90917C764B83}"},"Resources":null,"external":"false","installAs":"core","name":"Substance","packagePath":"C:\\Users\\Deepak\\AppData\\Local\\Temp\\Temp3_Setup_64bit.zip\\x64\\Substance\\AdobeSubstance3DforMaya-2.3.2-2024-msvc14-x86_64.exe","path":"x64/Substance/pkg.substance.xml","version":"1.0","xmlns":"https://emsfs.autodesk.com/schema/manifest/1/0","xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","xsi:schemaLocation":""}},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-05T19:59:17.972 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   Autodesk::LogAnalyzerHandler::AnalyzeLogFile 
+2023-04-05T19:59:17.973 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::GetLogFilePath ]   Autodesk::LogAnalyzerHandler::GetLogFilePath 
+2023-04-05T19:59:17.974 [Log Analyzer: 15144, single] [LogAnalyzer WARN] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   log file does not exist: C:\Users\Deepak\AppData\Local\Temp\AdobeSubstance3DforMaya-2.3.2-2024-msvc14-x86_64_2024_install.log 
+2023-04-05T19:59:17.975 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::SendResponse ]   send message: {"command":"ANALYZE_LOG_FILE","response":{"errorInfo":{"errorCode":"","errorContext":"","errorString":""}},"source":"DDA_LA","target":"DDA_CORE","version":"DDA_V1"} 
+2023-04-05T20:07:53.617 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-05T20:07:53.617 [Log Analyzer: 15144, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-05T20:07:53.617 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-05T20:07:53.618 [Log Analyzer: 15144, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-05T20:07:53.618 [Log Analyzer: 15144, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-05T20:07:53.618 [Log Analyzer: 15144, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-04-07T17:04:03.705 [Log Analyzer: 13596, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-07T17:04:03.707 [Log Analyzer: 13596, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-07T17:04:03.707 [Log Analyzer: 13596, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-07T17:04:03.707 [Log Analyzer: 13596, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-07T17:04:03.707 [Log Analyzer: 13596, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-07T17:04:03.707 [Log Analyzer: 13596, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-07T17:04:03.707 [Log Analyzer: 13596, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-07T17:04:03.707 [Log Analyzer: 13596, single] [LogAnalyzer INFO] ==================================================================
+2023-04-07T17:04:03.708 [Log Analyzer: 13596, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-07T17:04:03.708 [Log Analyzer: 13596, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-07T17:04:03.710 [Log Analyzer: 13596, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-07T17:04:03.710 [Log Analyzer: 13596, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-07T22:11:04.365 [Log Analyzer: 13596, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-07T22:11:04.367 [Log Analyzer: 13596, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-07T22:11:04.368 [Log Analyzer: 13596, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-07T22:11:04.368 [Log Analyzer: 13596, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-07T22:11:04.368 [Log Analyzer: 13596, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-07T22:11:04.368 [Log Analyzer: 13596, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-04-09T16:47:42.670 [Log Analyzer: 10048, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer INFO] ==================================================================
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-09T16:47:42.671 [Log Analyzer: 10048, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-09T16:47:42.672 [Log Analyzer: 10048, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-09T16:47:42.672 [Log Analyzer: 10048, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-09T16:50:35.235 [Log Analyzer: 10048, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-09T16:50:35.235 [Log Analyzer: 10048, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-09T16:50:35.235 [Log Analyzer: 10048, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-09T16:50:35.235 [Log Analyzer: 10048, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-09T16:50:35.235 [Log Analyzer: 10048, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-09T16:50:35.236 [Log Analyzer: 10048, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-04-09T16:52:04.250 [Log Analyzer: 4472, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer INFO] ==================================================================
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-09T16:52:04.251 [Log Analyzer: 4472, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-09T16:52:04.252 [Log Analyzer: 4472, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-09T16:52:04.252 [Log Analyzer: 4472, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-09T16:55:00.851 [Log Analyzer: 4472, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-09T16:55:00.852 [Log Analyzer: 4472, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-09T16:55:00.852 [Log Analyzer: 4472, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-09T16:55:00.852 [Log Analyzer: 4472, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-09T16:55:00.853 [Log Analyzer: 4472, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-09T16:55:00.853 [Log Analyzer: 4472, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-04-09T17:01:30.629 [Log Analyzer: 14356, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-09T17:01:30.630 [Log Analyzer: 14356, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-09T17:01:30.630 [Log Analyzer: 14356, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-09T17:01:30.630 [Log Analyzer: 14356, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-09T17:01:30.630 [Log Analyzer: 14356, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-09T17:01:30.630 [Log Analyzer: 14356, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-09T17:01:30.630 [Log Analyzer: 14356, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-09T17:01:30.630 [Log Analyzer: 14356, single] [LogAnalyzer INFO] ==================================================================
+2023-04-09T17:01:30.631 [Log Analyzer: 14356, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-09T17:01:30.631 [Log Analyzer: 14356, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-09T17:01:30.631 [Log Analyzer: 14356, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-09T17:01:30.632 [Log Analyzer: 14356, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-16T14:24:58.929 [Log Analyzer: 12788, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer INFO] ==================================================================
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-16T14:24:58.930 [Log Analyzer: 12788, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-16T14:24:58.931 [Log Analyzer: 12788, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-16T14:24:58.931 [Log Analyzer: 12788, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-16T14:31:06.354 [Log Analyzer: 12788, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T14:31:06.355 [Log Analyzer: 12788, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-16T14:31:06.355 [Log Analyzer: 12788, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-16T14:31:06.355 [Log Analyzer: 12788, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-16T14:31:06.356 [Log Analyzer: 12788, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-16T14:31:06.356 [Log Analyzer: 12788, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-04-16T19:29:36.324 [Log Analyzer: 29248, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer INFO] ==================================================================
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-16T19:29:36.325 [Log Analyzer: 29248, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-16T19:29:36.326 [Log Analyzer: 29248, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-16T19:29:36.326 [Log Analyzer: 29248, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-16T19:37:04.544 [Log Analyzer: 29248, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T19:37:04.546 [Log Analyzer: 29248, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-16T19:37:04.546 [Log Analyzer: 29248, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-16T19:37:04.546 [Log Analyzer: 29248, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-16T19:37:04.547 [Log Analyzer: 29248, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-16T19:37:04.547 [Log Analyzer: 29248, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-04-16T19:37:24.313 [Log Analyzer: 16956, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer INFO] ==================================================================
+2023-04-16T19:37:24.314 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-16T19:37:24.315 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-16T19:37:24.316 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-16T19:37:24.316 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-16T20:17:38.144 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"ANALYZE_LOG_FILE","request":{"Package":{"Configuration":{"AdditionalPackageInfo":{"uninstallCommand":"c:/solidangle/mtoadeploy/2022/Uninstall.exe /S /FORCE_UNINSTALL=1"},"Attributes":{"allowRollback":"true","diskCost":"170000","ignoreFailure":"true","majorUpgrade":"true","permanent":"true","suppressARP":"false"},"Conditions":[{"#value":"( (%M_TO_A_2022% CONTAINS 4.2.1) )","messageId":"xx","state":"INSTALLED"}],"InstallFile":{"contents":"File","file":"3rdParty/MtoA/MtoA.exe","installParams":"/S /FORCE_UNINSTALL=1 /norestart","type":"EXE","uninstallParams":"/S /FORCE_UNINSTALL=1"},"Languages":[{"langId":"en-US"}],"LaunchShortcut":null,"Platforms":[{"architecture":"x64","minVersion":"7","name":"Windows"}],"Properties":[{"RegistrySearch":{"id":"M_TO_A_2022","key":"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MtoA2022","name":"DisplayVersion","root":"HKCU"},"property":"M_TO_A_2022"}]},"Dependencies":null,"Identity":{"BuildNumber":{"#value":"4.2.1"},"ConstantId":"{9C8FFBE5-EEBD-4720-B5B6-E73D5AE4EA68}","DisplayName":"Arnold renderer for Maya 2022","PLC":"MAYA","Publisher":{"#value":"Autodesk, Inc.","thirdParty":"true"},"Release":"2022","Signature":"igv7dyq1u4CUtoINh11SZ2L8gwLB9IJ6kvE7OptYFa4=","Type":"APP","UPI2":"{D8014418-76B2-394D-88FD-4EBE31252732}","UpgradeCode":"{69BF5469-26BD-3904-80D3-1C9FE9146FFE}"},"Resources":null,"external":"false","installAs":"core","name":"MtoA","packagePath":"E:\\3rdParty\\MtoA\\MtoA.exe","path":"3rdParty/MtoA/pkg.mtoa.xml","version":"1.0","xmlns":"https://emsfs.autodesk.com/schema/manifest/1/0","xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","xsi:schemaLocation":""}},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T20:17:38.146 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   Autodesk::LogAnalyzerHandler::AnalyzeLogFile 
+2023-04-16T20:17:38.146 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::GetLogFilePath ]   Autodesk::LogAnalyzerHandler::GetLogFilePath 
+2023-04-16T20:17:38.148 [Log Analyzer: 16956, single] [LogAnalyzer WARN] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   log file does not exist: C:\Users\Deepak\AppData\Local\Temp\MtoA_2022_install.log 
+2023-04-16T20:17:38.148 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::SendResponse ]   send message: {"command":"ANALYZE_LOG_FILE","response":{"errorInfo":{"errorCode":"","errorContext":"","errorString":""}},"source":"DDA_LA","target":"DDA_CORE","version":"DDA_V1"} 
+2023-04-16T20:17:43.401 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"ANALYZE_LOG_FILE","request":{"Package":{"Configuration":{"AdditionalPackageInfo":null,"Attributes":{"allowRollback":"true","diskCost":"22462464","ignoreFailure":"true","majorUpgrade":"true","permanent":"true"},"InstallFile":{"contents":"File","file":"x64/Substance/SubstanceInMaya-2.1.9-2022-Windows.exe","installParams":"/VERYSILENT /SUPPRESSMSGBOXES /NORESTART","type":"EXE"},"Languages":[{"langId":"en-US"}],"LaunchShortcut":null,"Platforms":[{"architecture":"x64","minVersion":"7","name":"Windows"}]},"Dependencies":null,"Identity":{"BuildNumber":{"#value":"2.1.9"},"ConstantId":"{6984DC4D-151A-4FCF-9932-6734395133DB}","DisplayName":"Substance in Maya 2022","PLC":"MAYA","Publisher":{"#value":"Allegorithmic, Inc.","thirdParty":"true"},"Release":"2022","Signature":"XcTN0af4xDa++d/4oTnwuxvd6jbhQp4KilFVN/z+rvo=","Type":"APP","UPI2":"{6006780A-EBDA-31EA-A63D-70A5174389BA}","UpgradeCode":"{4DF3B37B-2E79-3386-94EE-8F3FBF5CF3CF}"},"Resources":null,"external":"false","installAs":"core","name":"Substance","packagePath":"E:\\x64\\Substance\\SubstanceInMaya-2.1.9-2022-Windows.exe","path":"x64/Substance/pkg.substance.xml","version":"1.0","xmlns":"https://emsfs.autodesk.com/schema/manifest/1/0","xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","xsi:schemaLocation":""}},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T20:17:43.402 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   Autodesk::LogAnalyzerHandler::AnalyzeLogFile 
+2023-04-16T20:17:43.402 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::GetLogFilePath ]   Autodesk::LogAnalyzerHandler::GetLogFilePath 
+2023-04-16T20:17:43.403 [Log Analyzer: 16956, single] [LogAnalyzer WARN] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   log file does not exist: C:\Users\Deepak\AppData\Local\Temp\SubstanceInMaya-2.1.9-2022-Windows_2022_install.log 
+2023-04-16T20:17:43.404 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::SendResponse ]   send message: {"command":"ANALYZE_LOG_FILE","response":{"errorInfo":{"errorCode":"","errorContext":"","errorString":""}},"source":"DDA_LA","target":"DDA_CORE","version":"DDA_V1"} 
+2023-04-16T20:18:51.348 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T20:18:51.348 [Log Analyzer: 16956, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-16T20:18:51.348 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-16T20:18:51.349 [Log Analyzer: 16956, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-16T20:18:51.349 [Log Analyzer: 16956, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-16T20:18:51.349 [Log Analyzer: 16956, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-04-16T20:31:03.900 [Log Analyzer: 28024, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer INFO] Running-Mode : root
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer INFO] ==================================================================
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-04-16T20:31:03.901 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-04-16T20:31:03.902 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-04-16T20:31:03.902 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-04-16T20:40:59.021 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"ANALYZE_LOG_FILE","request":{"Package":{"Configuration":{"AdditionalPackageInfo":{"uninstallCommand":"c:/solidangle/mtoadeploy/2022/Uninstall.exe /S /FORCE_UNINSTALL=1"},"Attributes":{"allowRollback":"true","diskCost":"170000","ignoreFailure":"true","majorUpgrade":"true","permanent":"true","suppressARP":"false"},"Conditions":[{"#value":"( (%M_TO_A_2022% CONTAINS 4.2.1) )","messageId":"xx","state":"INSTALLED"}],"InstallFile":{"contents":"File","file":"3rdParty/MtoA/MtoA.exe","installParams":"/S /FORCE_UNINSTALL=1 /norestart","type":"EXE","uninstallParams":"/S /FORCE_UNINSTALL=1"},"Languages":[{"langId":"en-US"}],"LaunchShortcut":null,"Platforms":[{"architecture":"x64","minVersion":"7","name":"Windows"}],"Properties":[{"RegistrySearch":{"id":"M_TO_A_2022","key":"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MtoA2022","name":"DisplayVersion","root":"HKCU"},"property":"M_TO_A_2022"}]},"Dependencies":null,"Identity":{"BuildNumber":{"#value":"4.2.1"},"ConstantId":"{9C8FFBE5-EEBD-4720-B5B6-E73D5AE4EA68}","DisplayName":"Arnold renderer for Maya 2022","PLC":"MAYA","Publisher":{"#value":"Autodesk, Inc.","thirdParty":"true"},"Release":"2022","Signature":"igv7dyq1u4CUtoINh11SZ2L8gwLB9IJ6kvE7OptYFa4=","Type":"APP","UPI2":"{D8014418-76B2-394D-88FD-4EBE31252732}","UpgradeCode":"{69BF5469-26BD-3904-80D3-1C9FE9146FFE}"},"Resources":null,"external":"false","installAs":"core","name":"MtoA","packagePath":"E:\\3rdParty\\MtoA\\MtoA.exe","path":"3rdParty/MtoA/pkg.mtoa.xml","version":"1.0","xmlns":"https://emsfs.autodesk.com/schema/manifest/1/0","xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","xsi:schemaLocation":""}},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T20:40:59.023 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   Autodesk::LogAnalyzerHandler::AnalyzeLogFile 
+2023-04-16T20:40:59.023 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::GetLogFilePath ]   Autodesk::LogAnalyzerHandler::GetLogFilePath 
+2023-04-16T20:43:09.053 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"ANALYZE_LOG_FILE","request":{"Package":{"Configuration":{"AdditionalPackageInfo":null,"Attributes":{"allowRollback":"true","diskCost":"22462464","ignoreFailure":"true","majorUpgrade":"true","permanent":"true"},"InstallFile":{"contents":"File","file":"x64/Substance/SubstanceInMaya-2.1.9-2022-Windows.exe","installParams":"/VERYSILENT /SUPPRESSMSGBOXES /NORESTART","type":"EXE"},"Languages":[{"langId":"en-US"}],"LaunchShortcut":null,"Platforms":[{"architecture":"x64","minVersion":"7","name":"Windows"}]},"Dependencies":null,"Identity":{"BuildNumber":{"#value":"2.1.9"},"ConstantId":"{6984DC4D-151A-4FCF-9932-6734395133DB}","DisplayName":"Substance in Maya 2022","PLC":"MAYA","Publisher":{"#value":"Allegorithmic, Inc.","thirdParty":"true"},"Release":"2022","Signature":"XcTN0af4xDa++d/4oTnwuxvd6jbhQp4KilFVN/z+rvo=","Type":"APP","UPI2":"{6006780A-EBDA-31EA-A63D-70A5174389BA}","UpgradeCode":"{4DF3B37B-2E79-3386-94EE-8F3FBF5CF3CF}"},"Resources":null,"external":"false","installAs":"core","name":"Substance","packagePath":"E:\\x64\\Substance\\SubstanceInMaya-2.1.9-2022-Windows.exe","path":"x64/Substance/pkg.substance.xml","version":"1.0","xmlns":"https://emsfs.autodesk.com/schema/manifest/1/0","xmlns:xsi":"http://www.w3.org/2001/XMLSchema-instance","xsi:schemaLocation":""}},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T20:43:09.054 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   Autodesk::LogAnalyzerHandler::AnalyzeLogFile 
+2023-04-16T20:43:09.054 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerHandler::GetLogFilePath ]   Autodesk::LogAnalyzerHandler::GetLogFilePath 
+2023-04-16T20:43:09.054 [Log Analyzer: 28024, single] [LogAnalyzer WARN] [ Autodesk::LogAnalyzerHandler::AnalyzeLogFile ]   log file does not exist: C:\Users\Deepak\AppData\Local\Temp\SubstanceInMaya-2.1.9-2022-Windows_2022_install.log 
+2023-04-16T20:43:09.054 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::SendResponse ]   send message: {"command":"ANALYZE_LOG_FILE","response":{"errorInfo":{"errorCode":"","errorContext":"","errorString":""}},"source":"DDA_LA","target":"DDA_CORE","version":"DDA_V1"} 
+2023-04-16T20:43:32.115 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-04-16T20:43:32.115 [Log Analyzer: 28024, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-04-16T20:43:32.116 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-04-16T20:43:32.116 [Log Analyzer: 28024, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-04-16T20:43:32.116 [Log Analyzer: 28024, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-04-16T20:43:32.116 [Log Analyzer: 28024, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] ======================== Start LogAnalyzer ========================
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] Version : 1.39.0.3
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] OS-Name : Windows
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] OS-Version : 10.0
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] OS-Locale : en-IN
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] Running-Mode : root
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] Build-Mode : Release
+2023-05-06T13:08:31.138 [Log Analyzer: 23556, single] [LogAnalyzer INFO] ==================================================================
+2023-05-06T13:08:31.139 [Log Analyzer: 23556, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   Autodesk::LogAnalyzerClient::Initialize 
+2023-05-06T13:08:31.139 [Log Analyzer: 23556, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Initialize ]   connecting to IPC channel... 
+2023-05-06T13:08:31.140 [Log Analyzer: 23556, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::Connected ]   Autodesk::LogAnalyzerClient::Connected 
+2023-05-06T13:08:31.140 [Log Analyzer: 23556, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   waiting for connection... 
+2023-05-06T13:12:13.403 [Log Analyzer: 23556, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::NewMessageAvailable ]   NewMessageAvailable: {"command":"EXIT_REQUEST","request":{"eventSource":7,"eventTarget":5},"source":"DDA_CORE","target":"DDA_LA","version":"DDA_V1"} 
+2023-05-06T13:12:13.404 [Log Analyzer: 23556, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::HandleIPCMessage ]   Exit command received. Stop LogAnalyzer 
+2023-05-06T13:12:13.404 [Log Analyzer: 23556, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   Autodesk::LogAnalyzerClient::BreakConnection 
+2023-05-06T13:12:13.404 [Log Analyzer: 23556, single] [LogAnalyzer DEBUG] [ Autodesk::LogAnalyzerClient::BreakConnection ]   destroying IPC channel... 
+2023-05-06T13:12:13.404 [Log Analyzer: 23556, single] [LogAnalyzer INFO] [ Autodesk::LogAnalyzerClient::WaitForConnection ]   Finish waiting for connection... 
+2023-05-06T13:12:13.404 [Log Analyzer: 23556, single] [LogAnalyzer INFO] [ main ]   Log Analyzer exited 

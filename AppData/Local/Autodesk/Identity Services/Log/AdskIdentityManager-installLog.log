@@ -1,0 +1,225 @@
+Log started 04/05/2023 at 20:47:36
+Preferred installation mode : unattended
+Trying to init installer in mode unattended
+Mode unattended successfully initialized
+adskPrintConfigParameters build_mode: Release
+adskPrintConfigParameters bit_width: x64
+adskPrintConfigParameters prefix: 
+adskPrintConfigParameters extractFiles: 0
+adskPrintConfigParameters autoKill: 1
+adskPrintConfigParameters UPI2: {784286FA-E013-3CC1-9973-C292877D20D7}
+adskPrintConfigParameters base_install_dir #2: 
+adskPrintConfigParameters installdir: 
+adskSetInstallerPath install base_install_dir: C:\Program Files\Autodesk\AdskIdentityManager
+adskSetInstallerPath installdir: C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+adskSetInstallerPath project.windowsSoftwareRegistryPrefix: 
+Setting variable tmp_directory_list from cmd /c dir /AD /B "C:\Program Files\Autodesk\AdskIdentityManager"
+Script exit code: 1
+
+Script output:
+ 
+
+Script stderr:
+ File Not Found
+
+Error running cmd /c dir /AD /B "C:\Program Files\Autodesk\AdskIdentityManager": File Not Found
+Top Installed version 0.0.0.0
+Setting variable tmp_directory_list from cmd /c dir /AD /B "C:\Program Files\Autodesk\AdskIdentityManager"
+Script exit code: 1
+
+Script output:
+ 
+
+Script stderr:
+ File Not Found
+
+Error running cmd /c dir /AD /B "C:\Program Files\Autodesk\AdskIdentityManager": File Not Found
+Top Installed version 0.0.0.0
+Old version 0.0.0.0
+Preparing to Install
+Preparing to Install
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+Unpacking files
+Directory already exists: C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+Unpacking files
+Directory already exists: C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\cs-CZ
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\de-DE
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\en-US
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\es-ES
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\fr-FR
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\font
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\image
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\style
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\scripts
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\tests
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\hu-HU
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\it-IT
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ja-JP
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ko-KR
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\pl-PL
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\platforms
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\plugins
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\plugins\imageformats
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\pt-BR
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\pt-PT
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ru-RU
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current(WoW64)
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\zh-CN
+Creating directory C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\zh-TW
+Unpacking files
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdIDSDKLog.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdskProxyManager.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\UPICA.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\vcruntime140.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\vcruntime140_1.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\WebView2Loader.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\font\Artifakt Element Bold.woff
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\font\Artifakt Element Regular.woff
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\font\Artifakt Element Semi Bold.woff
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\plugins\imageformats\qgif.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\plugins\imageformats\qico.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current\AdIDSDKLog.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current(WoW64)\AdIDSDKLog.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdskIdentityManager.ico
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\senddmp.exe.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\cs-CZ\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\de-DE\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\en-US\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\fr-FR\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\style\style.css
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\hu-HU\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\it-IT\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ko-KR\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\pt-BR\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\pt-PT\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\zh-TW\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdpSDK.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdpSDKGlobal.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdSkIdentityManager.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdskIdentityManagerInstall.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\IdSDKVersionCompatibility.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\IDServicesConfigs.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOClient.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\IDServicesConfigs-Federal.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\IDServicesConfigs-Commercial.config
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\environment_commercial.bat
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\environment_federal_us.bat
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\apply_federal_cfg.bat
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\es-ES\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\sign_in.html
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\image\close.svg
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\image\icon.svg
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\image\logo.svg
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\cs-CZ.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\de-DE.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\en-US.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\es-ES.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\fr-FR.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\hu-HU.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\it-IT.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\ja-JP.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\ko-KR.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\nl-NL.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\pl-PL.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\pt-BR.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\pt-PT.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\ru-RU.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\zh-CN.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\lang\zh-TW.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\scripts\language.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\scripts\utility.js
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ja-JP\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\pl-PL\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ru-RU\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\zh-CN\senddmp.resources.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\IdServices.logconfig
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdskIdentityManager.upiconfig
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ADPClientService.exe
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdpSDKCore.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdpSDKUI.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdpSDKUtil.exe
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdpSDKWrapper.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdskIdentityManager.exe
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\AdSSOServices.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\cer_core.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\IdServicesCore.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\libcrypto-1_1-x64.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\libssl-1_1-x64.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\log4cplusU_Ad_2.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\Microsoft.Diagnostics.Runtime.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\msvcp140.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\Qt5Core.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\Qt5Gui.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\Qt5Widgets.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\Qt5WinExtras.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\senddmp.exe
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\sqlite3.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\UPI.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\html\assets\image\background.png
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\platforms\qwindows.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\plugins\imageformats\qjpeg.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current\IdSDKPlugin.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current\log4cplusU_Ad_2.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current(WoW64)\IdSDKPlugin.dll
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\SSOPlugin\Current(WoW64)\log4cplusU_Ad_2.dll
+Directory already exists: C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+Unpacking files
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\ca.cer
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\IdIPCServer.dll
+Directory already exists: C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+Unpacking files
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\custom_uninstall.exe
+Directory already exists: C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+Unpacking files
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\vcredist_x64.exe
+Directory already exists: C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+Unpacking files
+Unpacking C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0\MicrosoftEdgeWebview2Setup.exe
+Could not find registry key HKEY_LOCAL_MACHINE\Software\Autodesk\Common Desktop EnableFedRamp. Setting variable isEnableFedRamp to empty value
+Setting variable install_guid from cmd /c powershell -Command [guid]::NewGuid().ToString(); [Environment]::Exit($LASTEXITCODE)
+Script exit code: 0
+
+Script output:
+ 26634830-3cc1-43d6-9000-6bc4b62b3fba
+
+Script stderr:
+ 
+
+Create link to installer version folder
+Executing cmd  /c mklink /D "C:\Program Files\Autodesk\AdskIdentityManager\Current" "C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0"
+Script exit code: 0
+
+Script output:
+ symbolic link created for C:\Program Files\Autodesk\AdskIdentityManager\Current <<===>> C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0
+
+Script stderr:
+ 
+
+Creating Uninstaller
+Creating uninstaller 25%
+Creating uninstaller 50%
+Creating uninstaller 75%
+Creating uninstaller 100%
+Installation completed
+VC 2015-2019 x64 Redist installed on the system. Version=14.29.30139.0
+Installing dependencies...
+Executing C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0/vcredist_x64.exe /q /norestart
+Script exit code: 1638
+
+Script output:
+ 
+
+Script stderr:
+ Program ended with an error exit code
+
+Error running C:\Program Files\Autodesk\AdskIdentityManager\1.7.3.0/vcredist_x64.exe /q /norestart: Program ended with an error exit code
+WebView2 already installed on the system, skipping installation.
+Log finished 04/05/2023 at 20:48:02
+Exiting with code 0

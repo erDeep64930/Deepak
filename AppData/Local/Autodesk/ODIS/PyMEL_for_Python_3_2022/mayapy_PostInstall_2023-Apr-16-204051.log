@@ -1,0 +1,5 @@
+Collecting pymel==1.2.0
+  Using cached pymel-1.2.0-py2.py3-none-any.whl (12.5 MB)
+Requirement already satisfied: future>=0.18 in c:\program files\autodesk\maya2022\python37\lib\site-packages (from pymel==1.2.0) (0.18.2)
+Installing collected packages: pymel
+Successfully installed pymel-1.2.0

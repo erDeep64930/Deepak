@@ -1,0 +1,393 @@
+2023-04-05T19:43:19.993 [Bootstrap: 11200, single] [Bootstrap INFO] ======================== Start Bootstrap ========================
+2023-04-05T19:43:19.994 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]   ====================================== 
+2023-04-05T19:43:19.995 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]    
+2023-04-05T19:43:19.995 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]   Autodesk ODIS Bootstrap 
+2023-04-05T19:43:19.995 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]   version:  1.37.2.5 
+2023-04-05T19:43:19.995 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]    
+2023-04-05T19:43:19.996 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]   ====================================== 
+2023-04-05T19:43:19.996 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Bootstrap::SetupApp::Init ]   Autodesk::Bootstrap::SetupApp::Init 
+2023-04-05T19:43:19.997 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Bootstrap::SetupGuiApp::PreInit ]   Autodesk::Bootstrap::SetupGuiApp::PreInit 
+2023-04-05T19:43:20.049 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]   Setup starting... 
+2023-04-05T19:43:20.049 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::SetupApp::Init ]   silent mode: off 
+2023-04-05T19:43:20.061 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ en-IN ]. 
+2023-04-05T19:43:20.062 [Bootstrap: 11200, single] [Bootstrap WARN] [ BS_Setup::OpenXmlFile ]   OpenXmlFile: C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\strings.xml 
+2023-04-05T19:43:20.065 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   Loading en-IN strings. 
+2023-04-05T19:43:20.065 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::initdata ]   Initialize data 
+2023-04-05T19:43:20.065 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2023-04-05T19:43:20.070 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2023-04-05T19:43:20.070 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2023-04-05T19:43:20.071 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> ODIS_ALLOWUPDATE:  undefined 
+2023-04-05T19:43:20.071 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]   ==> Validate data 
+2023-04-05T19:43:20.071 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]     ==> Data 
+2023-04-05T19:43:20.071 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - UPI2 id:              {2FA13C35-AE58-3F58-AD53-C16C22486F9B} 
+2023-04-05T19:43:20.071 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - Environment:          prd 
+2023-04-05T19:43:20.072 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - State:                live 
+2023-04-05T19:43:20.072 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - Serial Number:         
+2023-04-05T19:43:20.072 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - Product Key:           
+2023-04-05T19:43:20.072 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - Static ODIS version:  1.37.2.22 
+2023-04-05T19:43:20.072 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2023-04-05T19:43:20.072 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - Hide EULA:            false 
+2023-04-05T19:43:20.072 [Bootstrap: 11200, single] [Bootstrap INFO] [ BSData::validate ]         - Trial:                false 
+2023-04-05T19:43:20.073 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\setup.xml ]. 
+2023-04-05T19:43:20.073 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\setup.xml ] exists. 
+2023-04-05T19:43:20.073 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\AdODIS-installer.exe ]. 
+2023-04-05T19:43:20.074 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-05T19:43:20.074 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\odisver.xml ]. 
+2023-04-05T19:43:20.074 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\odisver.xml ] exists. 
+2023-04-05T19:43:20.074 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-05T19:43:20.074 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- Executing local media installation 
+2023-04-05T19:43:20.074 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-05T19:43:20.075 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   selectODIS 
+2023-04-05T19:43:20.075 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   prodEnv: 1 , noUpdate flag: 0 , NoUpdateBypass flag: 0 
+2023-04-05T19:43:20.075 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   ==> bEnableODISUpdate:  1 
+2023-04-05T19:43:20.075 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   Check for installed version of ODIS. 
+2023-04-05T19:43:20.075 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2023-04-05T19:43:20.076 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2023-04-05T19:43:20.076 [Bootstrap: 11200, single] [Bootstrap WARN] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] does not exist. 
+2023-04-05T19:43:20.076 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryMediaODIS ]   Check if ODIS can be launched by local media. 
+2023-04-05T19:43:20.076 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\AdODIS-installer.exe ]. 
+2023-04-05T19:43:20.076 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-05T19:43:20.077 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> Local Media ODIS version is  1.37.2.22 
+2023-04-05T19:43:20.077 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> Update ODIS with local media version:  1.37.2.22 
+2023-04-05T19:43:20.077 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ODIS is to be launched from local media: C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\ 
+2023-04-05T19:43:20.077 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> ODIS can be launched by local media. 
+2023-04-05T19:43:20.077 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryOnlineODIS ]   Check online for latest version of ODIS ( Environment: prd , State: live ) 
+2023-04-05T19:43:20.077 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ RestClient::SendPOSTRequest ]   Executing POST request to https://compsvc.delivery.autodesk.com/compsvc/componentService/component/latest/v1 with request body:  {"cnonce":"nonce","state":"live","timestamp":"123456","upgradeCode":"{BEC01EA1-3942-3A39-9863-47536D7CDEB1}"} 
+2023-04-05T19:43:20.077 [Bootstrap: 11200, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Sending a HTTP POST request to url: https://compsvc.delivery.autodesk.com/compsvc/componentService/component/latest/v1 
+2023-04-05T19:43:20.079 [Bootstrap: 11200, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Generating headers for POST request. 
+2023-04-05T19:43:21.518 [Bootstrap: 11200, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Response Code Received: 200 
+2023-04-05T19:43:21.520 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ RestClient::GetUpi2 ]   component service response: {"upi2":"{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}","buildNumber":"1.39.0.174"} GMT 
+2023-04-05T19:43:21.521 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Online ODIS version is  1.39.0.174 
+2023-04-05T19:43:21.521 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Update ODIS with online version:  1.39.0.174 
+2023-04-05T19:43:21.522 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ODIS is to be launched from online build: 1.39.0.174 
+2023-04-05T19:43:21.522 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::resolveManifest ]   resolveManifest 
+2023-04-05T19:43:21.523 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\setup.xml ]. 
+2023-04-05T19:43:21.523 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\setup.xml ] exists. 
+2023-04-05T19:43:21.524 [Bootstrap: 11200, single] [Bootstrap WARN] [ BS_Setup::OpenXmlFile ]   OpenXmlFile: C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\setup.xml 
+2023-04-05T19:43:21.526 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::CheckAnalyticsDisabled ]   CONFIG JSON: File not found:  C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\SetupRes\configuration.json 
+2023-04-05T19:43:21.566 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::TrackAdpEvent ]   TrackEvent data:  {"operationId":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","operationStage":"BOOTSTRAP","operationStatus":"OP_ENDED","operationType":"install","operation_meta":{"bootstrap_json":"upi2:{2FA13C35-AE58-3F58-AD53-C16C22486F9B}"###"signature:q+gA53yHvFZ+8h4wzVu38MsIPq8IVkiGtvBOfWvwqWs="###"state:live"###"env:prd"###"prodLang:en-US"###"url:https://dds.autodesk.com"###"odisver:1.37.2.22"},"product_meta":{"odis_session_id":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","odis_events_category":"Bootstrap","installation_id":"9daaf8ef-52d0-4e76-9b4f-f9e0bf8fe27f","target_product_name":"Autodesk Maya 2024","target_product_line_name":"MAYA","target_product_id":"{2FA13C35-AE58-3F58-AD53-C16C22486F9B}","target_product_release_id":"2024"}} 
+2023-04-05T19:43:21.567 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Bootstrap::SetupGuiApp::PostInit ]   Autodesk::Bootstrap::SetupGuiApp::PostInit 
+2023-04-05T19:43:21.596 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Bootstrap::SetupGuiApp::OnRun ]   Autodesk::Bootstrap::SetupGuiApp::OnRun 
+2023-04-05T19:43:21.599 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::downloadDDA ]   downloadDDA 
+2023-04-05T19:43:21.599 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::downloadAndUnzipManifest ]   downloadAndUnzipManifest: upi2: {F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21} env: prd 
+2023-04-05T19:43:21.600 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::downloadAndUnzipManifest ]   creating folder C:\Autodesk\WI\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21} 
+2023-04-05T19:43:21.602 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ RestClient::DownloadManifest ]   DownloadManifest to C:\Autodesk\WI\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}.zip 
+2023-04-05T19:43:21.602 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ RestClient::SendPOSTRequest ]   Executing POST request to https://manifest.delivery.autodesk.com/manifest/manifestService/manifestDownload/v2/ with request body:  {"manifestDownloadRequest":{"installType":"Download","platform":"WIN","state":"live","upi2":"{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}"}} 
+2023-04-05T19:43:21.602 [Bootstrap: 11200, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Sending a HTTP POST request to url: https://manifest.delivery.autodesk.com/manifest/manifestService/manifestDownload/v2/ 
+2023-04-05T19:43:21.603 [Bootstrap: 11200, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Generating headers for POST request. 
+2023-04-05T19:43:24.404 [Bootstrap: 11200, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Response Code Received: 200 
+2023-04-05T19:43:24.408 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::downloadAndUnzipManifest ]   Manifest downloaded. [ C:\Autodesk\WI\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}.zip ]. 
+2023-04-05T19:43:24.432 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::downloadAndUnzipManifest ]   Files are extracted to [ C:\Autodesk\WI\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21} ]. 
+2023-04-05T19:43:24.433 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::downloadDDA ]   Detecting file, [ C:\Autodesk\WI\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}\setup.xml ]. 
+2023-04-05T19:43:24.433 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::downloadDDA ]   File, [ C:\Autodesk\WI\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}\setup.xml ] exists. 
+2023-04-05T19:43:24.434 [Bootstrap: 11200, single] [Bootstrap WARN] [ BS_Setup::OpenXmlFile ]   OpenXmlFile: C:\Autodesk\WI\{F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21}\setup.xml 
+2023-04-05T19:43:24.463 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::downloadDDA ]   OfflineTimeoutInterval =  540 
+2023-04-05T19:43:24.464 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::downloadFileToTemp ]   downloadFileToTemp: url: https://up.autodesk.com/2020/AUTODESKINSTALLSERVICE/F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21/AdODIS-installer.exe filename: AdODIS-installer.exe offlineTimeoutInterval: 540 
+2023-04-05T19:43:24.465 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::createTempFolder ]   creating folder C:\Users\Deepak\AppData\Local\Temp\odis_download_dest 
+2023-04-05T19:43:24.466 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::createTempFolder ]   creating folder C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583 
+2023-04-05T19:43:24.467 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::downloadFile ]   downloadFile: https://up.autodesk.com/2020/AUTODESKINSTALLSERVICE/F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21/AdODIS-installer.exe 
+2023-04-05T19:43:24.467 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::downloadFile ]   specific download directory fullpath, [ C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583  removed. Number of files removed = [ 1 ]. 
+2023-04-05T19:43:24.867 [Bootstrap: 11200, single] [Bootstrap WARN] [ Autodesk::DDAUtils::SignatureUtils::IsSignedBySubjectName ]   CertQuery::File Name:[ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\DownloadManager.exe ] Subject:[ Autodesk, Inc ] Success 
+2023-04-05T19:43:24.867 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\DownloadManager.exe ] 
+2023-04-05T19:43:24.868 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\ODIS\DownloadManager.exe" -u "https://up.autodesk.com/2020/AUTODESKINSTALLSERVICE/F5DCF848-CEB4-3B5D-BDCD-6E16FDB2ED21/AdODIS-installer.exe" -p "C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\AdODIS-installer.exe" --productname Bootstrap --productversion 1.37.2.5 --maxtime 540 
+2023-04-05T19:44:23.368 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2023-04-05T19:44:23.368 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-05T19:44:23.369 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Setup::extractDDA ]   extractDDA 
+2023-04-05T19:44:23.371 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::extractDDA ]   Copying  C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\AdODIS-installer.exe  to  C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\ODIS\AdODIS-installer.exe 
+2023-04-05T19:44:24.110 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::extractDDA ]   Extracting DDA 
+2023-04-05T19:44:30.230 [Bootstrap: 11200, single] [Bootstrap WARN] [ Autodesk::DDAUtils::SignatureUtils::IsSignedBySubjectName ]   CertQuery::File Name:[ C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\AdODIS-installer.exe ] Subject:[ Autodesk, Inc ] Success 
+2023-04-05T19:44:30.230 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\AdODIS-installer.exe ] 
+2023-04-05T19:44:30.231 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\AdODIS-installer.exe"  --mode unattended --prefix "C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583" --xmlFilePath "C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583" --useService 0 
+2023-04-05T19:45:37.593 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2023-04-05T19:45:37.593 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-05T19:45:37.599 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by online (ie., from the temp directory). 
+2023-04-05T19:45:37.599 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::TrackAdpEvent ]   TrackEvent data:  {"operationId":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","operationStage":"BOOTSTRAP","operationStatus":"OP_ENDED","operationType":"install","operation_meta":{"bootstrap_chosen_odis_version":"1.39.0.174","bootstrap_install_source":"online","bootstrap_media_odis_version":"1.37.2.22","bootstrap_online_odis_version":"1.39.0.174"},"product_meta":{"odis_session_id":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","odis_events_category":"Bootstrap","installation_id":"9daaf8ef-52d0-4e76-9b4f-f9e0bf8fe27f","target_product_name":"Autodesk Maya 2024","target_product_line_name":"MAYA","target_product_id":"{2FA13C35-AE58-3F58-AD53-C16C22486F9B}","target_product_release_id":"2024"}} 
+2023-04-05T19:45:37.601 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2023-04-05T19:45:37.809 [Bootstrap: 11200, single] [Bootstrap WARN] [ Autodesk::DDAUtils::SignatureUtils::IsSignedBySubjectName ]   CertQuery::File Name:[ C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\Installer.exe ] Subject:[ Autodesk, Inc ] Success 
+2023-04-05T19:45:37.809 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommandHelper ]   Signature validated successfully for [ C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\Installer.exe ] 
+2023-04-05T19:45:37.809 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommandHelper ]   Set working directory: C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583 
+2023-04-05T19:45:37.811 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::TrackAdpEvent ]   TrackEvent data:  {"operationId":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","operationStage":"BOOTSTRAP","operationStatus":"OP_ENDED","operationType":"install","operation_meta":{"bootstrap_props":"--install_mode install --manifest %TEMP%\Temp3_Setup_64bit.zip\setup.xml --manifest_xsd %TEMP%\odis_download_dest\2452690128091740583\SetupRes\manifest.xsd --url_root https://dds.autodesk.com --installation_id 9daaf8ef-52d0-4e76-9b4f-f9e0bf8fe27f --analytics_id P8fo/AGAkmpr6xKMq2Uq6wXgGLM= --download_id {F32C03EB-3922-4739-B61E-7F189346AD0D} --portal_session_id 72D052C31B63D7A4C8C02B0948A02C2A493EFFE162D5D5FDA55D254EE24E3C1B14F4A55758142ADD3FDE4D53B55E32E4 --install_type StandAloneInstall --install_source %TEMP%\Temp3_Setup_64bit.zip --offline_mode --trigger_point local --installer_version 1.39.0.174"},"product_meta":{"odis_session_id":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","odis_events_category":"Bootstrap","installation_id":"9daaf8ef-52d0-4e76-9b4f-f9e0bf8fe27f","target_product_name":"Autodesk Maya 2024","target_product_line_name":"MAYA","target_product_id":"{2FA13C35-AE58-3F58-AD53-C16C22486F9B}","target_product_release_id":"2024"}} 
+2023-04-05T19:45:37.812 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\Installer.exe --install_mode install --manifest C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip\setup.xml --manifest_xsd C:\Users\Deepak\AppData\Local\Temp\odis_download_dest\2452690128091740583\SetupRes\manifest.xsd --url_root https://dds.autodesk.com --installation_id 9daaf8ef-52d0-4e76-9b4f-f9e0bf8fe27f --analytics_id P8fo/AGAkmpr6xKMq2Uq6wXgGLM= --download_id {F32C03EB-3922-4739-B61E-7F189346AD0D} --portal_session_id 72D052C31B63D7A4C8C02B0948A02C2A493EFFE162D5D5FDA55D254EE24E3C1B14F4A55758142ADD3FDE4D53B55E32E4 --install_type StandAloneInstall --install_source C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip --offline_mode --trigger_point local --installer_version 1.39.0.174 
+2023-04-05T20:07:55.424 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 1 
+2023-04-05T20:07:55.425 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Restore working directory: C:\Users\Deepak\AppData\Local\Temp\Temp3_Setup_64bit.zip 
+2023-04-05T20:07:55.426 [Bootstrap: 11200, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-05T20:07:55.426 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Bootstrap::SetupGuiApp::OnExit ]   Autodesk::Bootstrap::SetupGuiApp::OnExit 
+2023-04-05T20:07:55.426 [Bootstrap: 11200, single] [Bootstrap DEBUG] [ Autodesk::Bootstrap::SetupApp::Exit ]   Autodesk::Bootstrap::SetupApp::Exit 
+2023-04-05T20:07:55.431 [Bootstrap: 11200, single] [Bootstrap INFO] [ Autodesk::Bootstrap::AnalyticsManager::TrackAdpEvent ]   TrackEvent data:  {"operationId":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","operationStage":"BOOTSTRAP","operationStatus":"OP_ENDED","operationType":"install","operation_errors":{"BS_ERROR_311","BS_ERROR_706"},"operation_meta":{"bootstrap_error_code":"BS_ERROR_311, BS_ERROR_706","bootstrap_error_context":"odisver xml path does not exist###process completed with non-zero exit code: 1","bootstrap_execution":"fail","bootstrap_execution_time":"137.605386"},"product_meta":{"odis_session_id":"acac51e7-6940-4171-bafb-f5a1b6c4e4b3","odis_events_category":"Bootstrap","installation_id":"9daaf8ef-52d0-4e76-9b4f-f9e0bf8fe27f","target_product_name":"Autodesk Maya 2024","target_product_line_name":"MAYA","target_product_id":"{2FA13C35-AE58-3F58-AD53-C16C22486F9B}","target_product_release_id":"2024"}} 
+2023-04-05T20:07:55.501 [Bootstrap: 11200, single] [Bootstrap INFO] [ wWinMain ]   Bootstrap exit code: 1 
+2023-04-07T11:33:33.421 [Install Manager: 20716, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-07T11:33:33.422 [Install Manager: 20716, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2023-04-07T11:33:33.422 [Install Manager: 20716, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2023-04-07T11:33:33.422 [Install Manager: 20716, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   version:  1.3.3.11 
+2023-04-07T11:33:33.422 [Install Manager: 20716, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2023-04-07T11:33:33.422 [Install Manager: 20716, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-07T11:33:33.506 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ en-IN ]. 
+2023-04-07T11:33:33.509 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   Loading en-IN strings. 
+2023-04-07T11:33:33.510 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::initdata ]   Initialize data 
+2023-04-07T11:33:33.510 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2023-04-07T11:33:33.513 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2023-04-07T11:33:33.513 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2023-04-07T11:33:33.513 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]   ==> Validate data 
+2023-04-07T11:33:33.513 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]     ==> Data 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - UPI2 id:              {5320B971-D86B-442A-80A9-779EBF3516B8} 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - Environment:          prd 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - Serial Number:         
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - Product Key:           
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - Static ODIS version:  1.0.8.30 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - Hide EULA:            false 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ BSData::validate ]         - Trial:                false 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ]. 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ] exists. 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\AdODIS-installer.exe ]. 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\odisver.xml ]. 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\odisver.xml ] exists. 
+2023-04-07T11:33:33.514 [Install Manager: 20716, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- 
+2023-04-07T11:33:33.515 [Install Manager: 20716, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- Executing installer in offline mode 
+2023-04-07T11:33:33.515 [Install Manager: 20716, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- 
+2023-04-07T11:33:33.515 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   Check for installed version of ODIS. 
+2023-04-07T11:33:33.515 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2023-04-07T11:33:33.515 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2023-04-07T11:33:33.515 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] exists. 
+2023-04-07T11:33:33.526 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ]. 
+2023-04-07T11:33:33.526 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] exists. 
+2023-04-07T11:33:33.526 [Install Manager: 20716, single] [BootstrapUI INFO] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ==> Installed version of ODIS is  1.39.0.174 
+2023-04-07T11:33:33.526 [Install Manager: 20716, single] [BootstrapUI INFO] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ODIS is installed. 
+2023-04-07T11:33:33.526 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ]. 
+2023-04-07T11:33:33.526 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ] exists. 
+2023-04-07T11:33:33.529 [Install Manager: 20716, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by the installed DDA. 
+2023-04-07T11:33:33.529 [Install Manager: 20716, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2023-04-07T11:33:33.862 [Install Manager: 20716, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] 
+2023-04-07T11:33:33.862 [Install Manager: 20716, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Program Files\Autodesk\AdODIS\V1\Installer.exe" --install_mode install --manifest "C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml" --manifest_xsd "C:\Program Files\Autodesk\AdODIS\V1\SetupRes\manifest.xsd" --url_root https://dds.autodesk.com  
+2023-04-07T16:41:06.419 [Install Manager: 20716, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 0 
+2023-04-07T16:41:06.422 [Install Manager: 20716, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-07T16:41:06.424 [Install Manager: 20716, single] [BootstrapUI INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 
+2023-04-09T11:31:22.219 [Install Manager: 15420, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-09T11:31:22.219 [Install Manager: 15420, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2023-04-09T11:31:22.219 [Install Manager: 15420, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2023-04-09T11:31:22.219 [Install Manager: 15420, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   version:  1.3.3.11 
+2023-04-09T11:31:22.219 [Install Manager: 15420, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]    
+2023-04-09T11:31:22.219 [Install Manager: 15420, single] [BootstrapUI INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-09T11:31:22.284 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ en-IN ]. 
+2023-04-09T11:31:22.285 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSStrings::loadStrings ]   Loading en-IN strings. 
+2023-04-09T11:31:22.286 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::initdata ]   Initialize data 
+2023-04-09T11:31:22.286 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]   ==> Validate data 
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]     ==> Data 
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - UPI2 id:              {5320B971-D86B-442A-80A9-779EBF3516B8} 
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - Environment:          prd 
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - Serial Number:         
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - Product Key:           
+2023-04-09T11:31:22.287 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - Static ODIS version:  1.0.8.30 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - Hide EULA:            false 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI INFO] [ BSData::validate ]         - Trial:                false 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ]. 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ] exists. 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\AdODIS-installer.exe ]. 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\odisver.xml ]. 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\ODIS\odisver.xml ] exists. 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- Executing installer in offline mode 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI INFO] [ Autodesk::Setup::setOnlineInstallMode ]    -- 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   Check for installed version of ODIS. 
+2023-04-09T11:31:22.288 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] exists. 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ]. 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] exists. 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI INFO] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ==> Installed version of ODIS is  1.39.0.174 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI INFO] [ Autodesk::Setup::checkInstalledDdaLaunchMode ]   ODIS is installed. 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ]. 
+2023-04-09T11:31:22.289 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml ] exists. 
+2023-04-09T11:31:22.292 [Install Manager: 15420, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by the installed DDA. 
+2023-04-09T11:31:22.292 [Install Manager: 15420, single] [BootstrapUI INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2023-04-09T11:31:22.625 [Install Manager: 15420, single] [BootstrapUI DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] 
+2023-04-09T11:31:22.625 [Install Manager: 15420, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Program Files\Autodesk\AdODIS\V1\Installer.exe" --install_mode install --manifest "C:\Autodesk\Autodesk_Maya_2020_ML_Windows_64bit_dlm\setup.xml" --manifest_xsd "C:\Program Files\Autodesk\AdODIS\V1\SetupRes\manifest.xsd" --url_root https://dds.autodesk.com  
+2023-04-09T12:25:38.460 [Install Manager: 15420, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 1073807364 
+2023-04-09T12:25:38.460 [Install Manager: 15420, single] [BootstrapUI INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-09T12:25:38.461 [Install Manager: 15420, single] [BootstrapUI INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 
+2023-04-16T14:04:52.219 [Bootstrap: 21300, single] [Bootstrap INFO] ======================== Start Bootstrap ========================
+2023-04-16T14:04:52.269 [Bootstrap: 21300, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-16T14:04:52.269 [Bootstrap: 21300, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2023-04-16T14:04:52.269 [Bootstrap: 21300, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2023-04-16T14:04:52.269 [Bootstrap: 21300, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   version:  1.16.0.6 
+2023-04-16T14:04:52.270 [Bootstrap: 21300, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2023-04-16T14:04:52.270 [Bootstrap: 21300, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-16T14:04:52.280 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ en-IN ]. 
+2023-04-16T14:04:52.293 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   Loading en-IN strings. 
+2023-04-16T14:04:52.293 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::initdata ]   Initialize data 
+2023-04-16T14:04:52.294 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2023-04-16T14:04:52.304 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2023-04-16T14:04:52.304 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2023-04-16T14:04:52.304 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> ODIS_ALLOWUPDATE:  undefined 
+2023-04-16T14:04:52.304 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]   ==> Validate data 
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]     ==> Data 
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - UPI2 id:              {9D725D29-4BE6-3ED9-A585-F4D5E20CECEE} 
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - Environment:          prd 
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - Serial Number:         
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - Product Key:           
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - Static ODIS version:  1.16.0.31 
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - Hide EULA:            false 
+2023-04-16T14:04:52.305 [Bootstrap: 21300, single] [Bootstrap INFO] [ BSData::validate ]         - Trial:                false 
+2023-04-16T14:04:52.306 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\setup.xml ]. 
+2023-04-16T14:04:52.306 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\setup.xml ] exists. 
+2023-04-16T14:04:52.306 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\AdODIS-installer.exe ]. 
+2023-04-16T14:04:52.306 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-16T14:04:52.307 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\odisver.xml ]. 
+2023-04-16T14:04:52.307 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\odisver.xml ] exists. 
+2023-04-16T14:04:52.307 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-16T14:04:52.307 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- Executing local media installation 
+2023-04-16T14:04:52.307 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-16T14:04:52.308 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   ==> bEnableODISUpdate:  1 
+2023-04-16T14:04:52.308 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   Check for installed version of ODIS. 
+2023-04-16T14:04:52.308 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2023-04-16T14:04:52.308 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2023-04-16T14:04:52.308 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] exists. 
+2023-04-16T14:04:52.309 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ]. 
+2023-04-16T14:04:52.310 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] exists. 
+2023-04-16T14:04:52.310 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::tryInstalledODIS ]   ==> Installed version of ODIS is  1.39.0.174 
+2023-04-16T14:04:52.310 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::tryInstalledODIS ]   ODIS is installed. 
+2023-04-16T14:04:52.310 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryMediaODIS ]   Check if ODIS can be launched by local media. 
+2023-04-16T14:04:52.310 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\AdODIS-installer.exe ]. 
+2023-04-16T14:04:52.311 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-16T14:04:52.311 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> Local Media ODIS version is  1.16.0.31 
+2023-04-16T14:04:52.311 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryOnlineODIS ]   Check online for latest version of ODIS 
+2023-04-16T14:04:52.311 [Bootstrap: 21300, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Sending a HTTP POST request to url: https://compsvc.delivery.autodesk.com/compsvc/componentService/component/latest/v1 
+2023-04-16T14:04:52.311 [Bootstrap: 21300, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Generating headers for POST request. 
+2023-04-16T14:04:54.358 [Bootstrap: 21300, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Response Code Received: 200 
+2023-04-16T14:04:54.360 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Online ODIS version is  1.39.0.174 
+2023-04-16T14:04:54.360 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\setup.xml ]. 
+2023-04-16T14:04:54.360 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\setup.xml ] exists. 
+2023-04-16T14:04:54.362 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by the installed DDA. 
+2023-04-16T14:04:54.363 [Bootstrap: 21300, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2023-04-16T14:04:54.789 [Bootstrap: 21300, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] 
+2023-04-16T14:04:54.790 [Bootstrap: 21300, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Program Files\Autodesk\AdODIS\V1\Installer.exe" --install_mode install --manifest E:\setup.xml --manifest_xsd "C:\Program Files\Autodesk\AdODIS\V1\SetupRes\manifest.xsd" --url_root https://dds.autodesk.com --install_source E:\ --offline_mode --trigger_point local --installer_version 1.39.0.174 
+2023-04-16T14:05:19.220 [Bootstrap: 21300, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code -1 
+2023-04-16T14:05:19.220 [Bootstrap: 21300, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-16T14:05:19.220 [Bootstrap: 21300, single] [Bootstrap INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 
+2023-04-16T14:07:11.283 [Bootstrap: 29460, single] [Bootstrap INFO] ======================== Start Bootstrap ========================
+2023-04-16T14:07:11.362 [Bootstrap: 29460, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-16T14:07:11.362 [Bootstrap: 29460, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2023-04-16T14:07:11.362 [Bootstrap: 29460, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2023-04-16T14:07:11.362 [Bootstrap: 29460, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   version:  1.16.0.6 
+2023-04-16T14:07:11.362 [Bootstrap: 29460, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2023-04-16T14:07:11.363 [Bootstrap: 29460, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-16T14:07:11.373 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ en-IN ]. 
+2023-04-16T14:07:11.374 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   Loading en-IN strings. 
+2023-04-16T14:07:11.375 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::initdata ]   Initialize data 
+2023-04-16T14:07:11.375 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2023-04-16T14:07:11.377 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2023-04-16T14:07:11.377 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2023-04-16T14:07:11.377 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> ODIS_ALLOWUPDATE:  undefined 
+2023-04-16T14:07:11.377 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]   ==> Validate data 
+2023-04-16T14:07:11.377 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]     ==> Data 
+2023-04-16T14:07:11.377 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - UPI2 id:              {9D725D29-4BE6-3ED9-A585-F4D5E20CECEE} 
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - Environment:          prd 
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - Serial Number:         
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - Product Key:           
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - Static ODIS version:  1.16.0.31 
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - Hide EULA:            false 
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap INFO] [ BSData::validate ]         - Trial:                false 
+2023-04-16T14:07:11.378 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\setup.xml ]. 
+2023-04-16T14:07:11.379 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\setup.xml ] exists. 
+2023-04-16T14:07:11.379 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\AdODIS-installer.exe ]. 
+2023-04-16T14:07:11.379 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-16T14:07:11.379 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\odisver.xml ]. 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\odisver.xml ] exists. 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- Executing local media installation 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   ==> bEnableODISUpdate:  1 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   Check for installed version of ODIS. 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2023-04-16T14:07:11.380 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] exists. 
+2023-04-16T14:07:11.381 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ]. 
+2023-04-16T14:07:11.381 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] exists. 
+2023-04-16T14:07:11.381 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::tryInstalledODIS ]   ==> Installed version of ODIS is  1.39.0.174 
+2023-04-16T14:07:11.381 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::tryInstalledODIS ]   ODIS is installed. 
+2023-04-16T14:07:11.381 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryMediaODIS ]   Check if ODIS can be launched by local media. 
+2023-04-16T14:07:11.381 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\AdODIS-installer.exe ]. 
+2023-04-16T14:07:11.382 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-16T14:07:11.382 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> Local Media ODIS version is  1.16.0.31 
+2023-04-16T14:07:11.382 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryOnlineODIS ]   Check online for latest version of ODIS 
+2023-04-16T14:07:11.382 [Bootstrap: 29460, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Sending a HTTP POST request to url: https://compsvc.delivery.autodesk.com/compsvc/componentService/component/latest/v1 
+2023-04-16T14:07:11.382 [Bootstrap: 29460, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Generating headers for POST request. 
+2023-04-16T14:07:13.730 [Bootstrap: 29460, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Response Code Received: 200 
+2023-04-16T14:07:13.734 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Online ODIS version is  1.39.0.174 
+2023-04-16T14:07:13.734 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\setup.xml ]. 
+2023-04-16T14:07:13.735 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\setup.xml ] exists. 
+2023-04-16T14:07:13.739 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by the installed DDA. 
+2023-04-16T14:07:13.739 [Bootstrap: 29460, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2023-04-16T14:07:13.962 [Bootstrap: 29460, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] 
+2023-04-16T14:07:13.962 [Bootstrap: 29460, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Program Files\Autodesk\AdODIS\V1\Installer.exe" --install_mode install --manifest E:\setup.xml --manifest_xsd "C:\Program Files\Autodesk\AdODIS\V1\SetupRes\manifest.xsd" --url_root https://dds.autodesk.com --install_source E:\ --offline_mode --trigger_point local --installer_version 1.39.0.174 
+2023-04-16T14:52:47.049 [Bootstrap: 29460, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 1 
+2023-04-16T14:52:47.050 [Bootstrap: 29460, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-16T14:52:47.050 [Bootstrap: 29460, single] [Bootstrap INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 
+2023-04-16T15:00:56.145 [Bootstrap: 19856, single] [Bootstrap INFO] ======================== Start Bootstrap ========================
+2023-04-16T15:00:56.176 [Bootstrap: 19856, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-16T15:00:56.176 [Bootstrap: 19856, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2023-04-16T15:00:56.176 [Bootstrap: 19856, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   Setup starting... 
+2023-04-16T15:00:56.176 [Bootstrap: 19856, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   version:  1.16.0.6 
+2023-04-16T15:00:56.176 [Bootstrap: 19856, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]    
+2023-04-16T15:00:56.176 [Bootstrap: 19856, single] [Bootstrap INFO] [ BootstrapApp::OnInit ]   ====================================== 
+2023-04-16T15:00:56.183 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   ==> OS Language found is [ en-IN ]. 
+2023-04-16T15:00:56.191 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSStrings::loadStrings ]   Loading en-IN strings. 
+2023-04-16T15:00:56.191 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::initdata ]   Initialize data 
+2023-04-16T15:00:56.191 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::initJson ]   ==> Load and parse bootstrap.json 
+2023-04-16T15:00:56.197 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::initCmdL ]   ==> Load and parse command line 
+2023-04-16T15:00:56.197 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> Load and parse environment 
+2023-04-16T15:00:56.197 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::initEnvV ]   ==> ODIS_ALLOWUPDATE:  undefined 
+2023-04-16T15:00:56.197 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]   ==> Validate data 
+2023-04-16T15:00:56.197 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]     ==> Data 
+2023-04-16T15:00:56.197 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - UPI2 id:              {9D725D29-4BE6-3ED9-A585-F4D5E20CECEE} 
+2023-04-16T15:00:56.197 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - Environment:          prd 
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - Serial Number:         
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - Product Key:           
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - Static ODIS version:  1.16.0.31 
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - Path to odisver.xml:  C:\ProgramData\Autodesk\ODIS\ 
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - Hide EULA:            false 
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap INFO] [ BSData::validate ]         - Trial:                false 
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\setup.xml ]. 
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\setup.xml ] exists. 
+2023-04-16T15:00:56.198 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\AdODIS-installer.exe ]. 
+2023-04-16T15:00:56.199 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-16T15:00:56.199 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\odisver.xml ]. 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\odisver.xml ] exists. 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- Executing local media installation 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::setLocalMediaInstallMode ]    -- 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ Autodesk::Setup::selectODIS ]   ==> bEnableODISUpdate:  1 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   Check for installed version of ODIS. 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryInstalledODIS ]   ==> installedOdisVerFile=[ C:\ProgramData\Autodesk\ODIS\odisver.xml ] 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\ProgramData\Autodesk\ODIS\odisver.xml ]. 
+2023-04-16T15:00:56.200 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\ProgramData\Autodesk\ODIS\odisver.xml ] exists. 
+2023-04-16T15:00:56.204 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ]. 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] exists. 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::tryInstalledODIS ]   ==> Installed version of ODIS is  1.39.0.174 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::tryInstalledODIS ]   ODIS is installed. 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryMediaODIS ]   Check if ODIS can be launched by local media. 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\ODIS\AdODIS-installer.exe ]. 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\ODIS\AdODIS-installer.exe ] exists. 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::tryMediaODIS ]   ==> Local Media ODIS version is  1.16.0.31 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ Autodesk::Setup::tryOnlineODIS ]   Check online for latest version of ODIS 
+2023-04-16T15:00:56.205 [Bootstrap: 19856, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Sending a HTTP POST request to url: https://compsvc.delivery.autodesk.com/compsvc/componentService/component/latest/v1 
+2023-04-16T15:00:56.206 [Bootstrap: 19856, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Generating headers for POST request. 
+2023-04-16T15:00:57.167 [Bootstrap: 19856, single] [Bootstrap INFO] [ RestClient::AdHttpLibLogHandler ]   [AdHttpLib]  Response Code Received: 200 
+2023-04-16T15:00:57.170 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::tryOnlineODIS ]   ==> Online ODIS version is  1.39.0.174 
+2023-04-16T15:00:57.170 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   Detecting [ E:\setup.xml ]. 
+2023-04-16T15:00:57.170 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::DetectFile ]   File, [ E:\setup.xml ] exists. 
+2023-04-16T15:00:57.172 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   DDA will be launched by the installed DDA. 
+2023-04-16T15:00:57.172 [Bootstrap: 19856, single] [Bootstrap INFO] [ Autodesk::Setup::runDDA ]   Launching DDA 
+2023-04-16T15:00:57.320 [Bootstrap: 19856, single] [Bootstrap DEBUG] [ BS_Setup::ExecuteCommand ]   Signature validated successfully for [ C:\Program Files\Autodesk\AdODIS\V1\Installer.exe ] 
+2023-04-16T15:00:57.320 [Bootstrap: 19856, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]   Launching process:  "C:\Program Files\Autodesk\AdODIS\V1\Installer.exe" --install_mode install --manifest E:\setup.xml --manifest_xsd "C:\Program Files\Autodesk\AdODIS\V1\SetupRes\manifest.xsd" --url_root https://dds.autodesk.com --install_source E:\ --offline_mode --trigger_point local --installer_version 1.39.0.174 
+2023-04-16T15:13:33.930 [Bootstrap: 19856, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Process completed. System exit code  0 Process exit code 1 
+2023-04-16T15:13:33.930 [Bootstrap: 19856, single] [Bootstrap INFO] [ BS_Setup::ExecuteCommand ]     => Success 
+2023-04-16T15:13:33.931 [Bootstrap: 19856, single] [Bootstrap INFO] [ BootstrapApp::OnExit ]   Deleted Instance checker Successfully 
